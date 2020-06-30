@@ -1,0 +1,114 @@
+
+.accueil {
+    display:flex;
+}
+
+body { 
+    font-family: arial,sans-sherif;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: auto;
+    line-height: 24px;
+  }
+
+.navbar a {
+    
+    margin: 12px;
+    padding: 24;
+    font-size: 13px;
+    color: rgb(53, 53, 53);
+    align-items: right;
+    text-decoration: none;
+
+}
+
+#produits { 
+    margin-top: -5px;
+}
+
+.navbar #connexion { 
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 3px;
+    height: min-content;
+    padding: 0 12px;
+    }
+
+.welcomepic { 
+    margin : 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchbar {
+    display: flex;
+    border: 1px solid lightgray;
+    border-radius: 24px;
+    height: 44px;
+    margin: 9px auto;
+    width: 482px;
+    clear: both;
+    outline: none;
+   
+}
+
+.choix2 {
+    margin: 11px 6px;
+    font-size: 14px;
+    padding: 10px 16px;
+    color: rgb(107, 107, 107);
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    outline: none;
+    box-shadow: none;
+    
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    border: 1px lightgrey;
+    padding: 15px;
+    font-size: 12px;
+}
+
+.gauche {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+ul {
+    list-style: none;
+}
+
+.gauche a, .droite a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: gray;
+    flex-direction: row;
+    justify-items: space-between;
+    margin: 0 !important;
+    padding: 9px;
+    align-items: flex-end;
+}
+
+.droite {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
